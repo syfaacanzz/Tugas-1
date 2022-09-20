@@ -1,0 +1,39 @@
+Nama      : Fadia Indah Sari
+NIM       : 062040832801
+No. Absen : 10
+
+1. Apa itu git dan kegunaannya?
+Jawab :
+Git merupakan software berbasis Version Control System (VCS) yang bertugas untuk mencatat perubahan seluruh file atau repository suatu project. Git adalah version control system yang digunakan para developer untuk mengembangkan software secara bersama-bersama. 
+Kegunaan git : untuk mengelola versi kode sumber program dengan menentukan baris serta kode yang akan ditambahkan atau diganti. 
+
+2. Apa itu github dan kegunaannya?
+Jawab :
+GitHub adalah sebuah website dan layanan berbasis cloud bagi para developer untuk menyimpan dan mengelola kode, serta mendokumentasikan dan mengontrol perubahannya.
+Kegunaan github : 
+- Memudahkan kolaborasi pengerjaan project
+- Mencegah perubahan code yang bisa merusak code asli
+- Sebagai portofolio bagi developer
+
+3. Sebutkan istilah-istilah yang ada di git dan jelaskan masing-masing istilah tersebut.
+Jawab :
+1) Clone adalah proses mendownload kode yang ada pada repository ke dalam komputer kita.
+2) Branch secara bahasa berarti cabang. Jika dalam storage, cabang dapat kita analogikan sebagai folder. Kita dapat menyimpan proyek perangkat lunak dalam folder yang kita beri nama master. Suatu saat proyek pada folder master telah mencapai final sampai pada tahap rilis. Di tengah rilis, kita ingin menambahkan fitur tanpa mengganggu isi dari folder master, sehingga kita bisa meng-copy folder master dan membuat folder baru dengan nama development. Begitulah branch bekerja. Dalam git kita dapat membuat replikasi proyek dalam berbagai branch sehingga pengembangan dalam satu branch tidak akan mengganggu branch lain. Baru ketika suatu branch telah siap dapat digabungkan dalam branch utama melalui proses merge.
+3) Merge adalah proses menggabungkan suatu branch dengan branch yang lain. Biasanya dilakukan ketika development dari suatu branch telah selesai dan digabungkan di branch utama. 
+4) Conflict atau konflik adalah kondisi error yang terjadi karena dua orang programmer merubah satu line yang sama pada file yang sama. Sebagai contoh, dua orang programmer sama-sama merubah file A.txt pada line 10. Conflict terjadi ketika proses merge, dimana git memberitahukan file mana yang terjadi konflik. Solusi dari konflik adalah memilih kode mana yang digunakan, atau digunakan seluruhnya. 
+5) Commit adalah aksi yang dilakukan sebagai persiapan untuk mensubmit kode yang menandakan kode tidak akan diubah lagi. Sebagai contoh sebuah proyek membutuhkan tambahan fitur A, sehingga seorang programmer mengerjakannya. Ketika fitur tersebut selesai programmer perlu mensubmit pekerjaan pada repository. Sebelum submit dilakukan yang dilakukan adalah mengunci untuk memastikan kode tidak bisa diubah lagi dan siap disubmit. Proses mengunci ini disebut sebagai commit. 
+6) Push adalah proses mensubmit perubahan ke repository. Dijelaskan sebelumnya bahwa proses commit adalah mengunci kode agar tidak terjadi perubahan. Disinilah push adalah proses untuk men-submit kode-kode yang telah di-commit sebelumnya.
+7) Pull adalah proses sebaliknaya dari push. Pull adalah action untuk mendapatkan kode-kode terupdate yang ada pada repository. 
+
+4. Sebutkan layanan selain github.
+Jawab :
+- Bitbucket
+- SourceForce
+- GitLab
+- Kiln
+- Codeplane
+- CodePlex
+- Codegiant
+- Gitea
+- GitKraken
+- Pohon Kacang
